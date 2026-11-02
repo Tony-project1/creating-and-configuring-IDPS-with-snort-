@@ -166,6 +166,37 @@ Based on the identified security gaps and the implemented controls, the followin
 - Regularly update firewall rules, Snort signatures, and security monitoring components.
 - Develop an incident response and recovery plan to minimize the impact of security breaches.
 
+  Practical Questions:
+  What is the main difference between an Intrusion Detection
+System (IDS) and an Intrusion Prevention System (IPS)?
+The difference between the both is that IDS detects and intruding traffic  and does not  stop it while IPS
+stops traffic
+
+What is network segmentation, and why is it important for
+controlling internal threats?
+Network segmentation is the process of splitting a network into smaller isolated subnetworks and the reason is stop lateral movement of the attacker or intruder 
+
+How does a Port Scan work, and how can an analyst identify
+one in logs?
+port scan is a reconnaissance technique where the attacker sends packets to all the ports from 1 to 65,535 and analyses all the response to see vulnerable ports and from there plan an entry port 
+
+Analysts can identify one in logs through high frequency of denied connections belonging to a single ip
+Another can be through vertical(one ip probing multiple ports) and horizontal scans(many ips probing one port)
+
+If you see an alert for a successful SSH brute-force attack on a
+production server, what are your first three steps?
+
+The first three steps are 
+verify and investigate the alert
+contain the threat 
+Eradicate,recover and monitor 
+
+And the whole of this is to bridge the attackers access, securely recover the systems and prevent  reoccurrence  
+
+
+
+
+
 ## Author
 
 **Aleke Anthony**
